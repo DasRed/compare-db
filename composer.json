@@ -1,0 +1,16 @@
+{
+	"name": "dasred/compare-db",
+
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+
+	"require": {
+		"php": ">=5.5",
+		"zendframework/zend-console": "@stable",
+		"ext-pdo": "*"
+	},
+
+	"bin": [
+		"bin/compare-db"
+	]
+}
